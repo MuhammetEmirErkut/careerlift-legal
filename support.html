@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek - Kariyer Kur</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .contact-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .contact-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .contact-card a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        
+        .faq-item h3 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            color: #666;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Kariyer Kur Destek</h1>
+            <p>Yardıma mı ihtiyacınız var? Biz buradayız!</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📧 Bize Ulaşın</h2>
+                <div class="contact-card">
+                    <h3>E-posta Desteği</h3>
+                    <p>Sorularınız veya geri bildirimleriniz için bize e-posta gönderin:</p>
+                    <p style="margin-top: 10px;">
+                        <a href="mailto:support@kariyerkur.com">support@kariyerkur.com</a>
+                    </p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>Sosyal Medya</h3>
+                    <p>Bizi sosyal medyadan takip edin:</p>
+                    <p style="margin-top: 10px;">
+                        <a href="#">Twitter</a> | 
+                        <a href="#">Instagram</a> | 
+                        <a href="#">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>❓ Sıkça Sorulan Sorular</h2>
+                
+                <div class="faq-item">
+                    <h3>CV'mi nasıl kaydedebilirim?</h3>
+                    <p>CV oluşturucuda bilgilerinizi girdikten sonra otomatik olarak kaydedilir. Ayrıca PDF olarak indirmek için "ATS PDF Olarak İndir" butonunu kullanabilirsiniz.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Şifremi unuttum, ne yapmalıyım?</h3>
+                    <p>Giriş ekranında "Şifremi Unuttum" bağlantısına tıklayarak e-posta adresinizi girin. Şifre sıfırlama bağlantısı e-posta adresinize gönderilecektir.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Hesabımı nasıl silebilirim?</h3>
+                    <p>Ayarlar > Hesap Yönetimi bölümünden "Hesabı Sil" seçeneğini kullanabilirsiniz. Bu işlem geri alınamaz ve tüm verileriniz silinir.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>AI özellikleri nasıl çalışır?</h3>
+                    <p>AI desteğiyle ön yazı oluşturma ve CV optimizasyonu için ilgili bölümlerde "AI Magic Oluştur" butonunu kullanabilirsiniz. Sistem CV'nizi ve iş ilanını analiz ederek kişiselleştirilmiş içerik üretir.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🚀 Geri Bildirim</h2>
+                <p>Uygulamamızı geliştirmemize yardımcı olmak için öneri ve görüşlerinizi bizimle paylaşın. Her geri bildirim bizim için değerlidir!</p>
+                <a href="mailto:feedback@kariyerkur.com" class="button">Geri Bildirim Gönder</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 Kariyer Kur. Tüm hakları saklıdır.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy.html" style="color: #667eea;">Gizlilik Politikası</a> | 
+                <a href="terms.html" style="color: #667eea;">Kullanım Koşulları</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
